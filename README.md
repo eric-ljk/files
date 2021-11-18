@@ -67,7 +67,7 @@ Weather data from 2007 to 2014. Column descriptions in noaa_weather_qclcd_docume
 ## Additional Calculated Feature after Feature Engineering
 
 |Feature|Type|Description|
-|---|---|---|---|
+|---|---|---|
 |**rh**|*float*|Relative Humidity calculated from `Tavg` and `wet_bulb` feature in `Weather` Dataset.|
 
 # Exploratory Data Analysis (EDA)
