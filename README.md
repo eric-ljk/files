@@ -130,6 +130,20 @@ The accuracy scores were not the metric we were looking at, as compared to recal
 
 Therefore, we used the recall score, which is how many positive samples were correctly identified out of all postitive samples. This would leave the negative samples out of the metric. The lower the recall, the more false negatives predicted by the model. In this case, false negatives would mean not detecting WNV where it is present, which is more serious than the opposite, false positives. With false positives, WNV is said to be present when it is not.
 
+# Cost-Benefit Analysis
+
+As part of the Chicago Department of Public Health (CDPH) to tackle the West Nile Virus (WNV), one of the efforts include spraying pesticides to reduce the population of mosquitioes to reduce the population of mosquitoes carrying WNV. As per our EDA, we find that the efforts for spraying pesticides were not necessarily targeted to high risk areas, possibly leading to cost-savings if our model is able to provide a prediction of high risk areas.
+
+The costs analysed here include the cost of the spraying of pesticides, while the benefits include the cost avoidance of medical and productivity costs from preventing cases of WNV through the spraying of pesticides in Chicago. The numbers calculated were as follows:
+
+The total cost for spraying the entire area of Chicago 14 times was $2172842 in 2021. 
+
+The weighted medical cost for each patient was $15574 in 2021.
+
+Spray efforts would have to reduce number of human cases by 100 in order to justify the cost of spraying the whole of Chicago every week for 3 months, but the average number of cases per year have generally been below 100. Even in 2013, which had the biggest outbreak in our dataset, there were only 66 recorded human cases ([source](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7241786/#sec009title)).
+
+As such, spraying the whole of Chicago on a weekly basis is evidently a costly and inefficient endeavour. A more effective approach would be to target spraying at areas that have a high predicted probability of WNV outbreak.
+
 
 # Conclusions
 
