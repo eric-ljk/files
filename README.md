@@ -165,7 +165,7 @@ These recommendations can be integrated by exporting our Logistic Regression mod
 
 If WNV is present in the sample, this indicates that the particular street surrounding the trap may be a hotspot. Pesticides should thus be deployed to exterminate carriers that may be potential zoonotic vectors for the disease to spread. This achieves our objective of increasing efficiency in West Nile Virus detection and thus reducing resource wastage.
 
-## Future Steps
+# Future Steps
 
 - **More accurate data on weather should be gathered to input for model training and prediction.** Currently, weather data is mapped to traps depending on whether traps are nearer to station 1 or station 2. If more localized weather data can be obtained, this would greatly improve model fit and prediction.
 
